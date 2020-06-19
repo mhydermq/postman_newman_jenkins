@@ -14,7 +14,7 @@
 						"id": "e2e77f88-2318-491e-9155-e546ef94fb28",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.have.status(201);\r",
 							"});\r",
 							"pm.test(\"Body matches string\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"qui est esse\");\r",
